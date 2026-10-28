@@ -6,10 +6,10 @@ import com.example.Aivra_Backend.dto.response.AdminResponse;
 import com.example.Aivra_Backend.entity.AdminDetail;
 import com.example.Aivra_Backend.repositry.AdminRepository;
 import com.example.Aivra_Backend.service.AdminService;
+import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
 @Service

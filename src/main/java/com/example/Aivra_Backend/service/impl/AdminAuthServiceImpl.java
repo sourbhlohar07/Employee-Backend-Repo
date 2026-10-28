@@ -9,7 +9,6 @@ import com.example.Aivra_Backend.entity.RefreshToken;
 import com.example.Aivra_Backend.repositry.AdminRepository;
 import com.example.Aivra_Backend.repositry.RefreshTokenRepository;
 import com.example.Aivra_Backend.service.AdminAuthService;
-
 import com.example.Aivra_Backend.service.JwtService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

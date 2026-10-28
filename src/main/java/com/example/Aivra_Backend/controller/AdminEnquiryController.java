@@ -4,14 +4,12 @@ import com.example.Aivra_Backend.dto.request.EnquiryRequest;
 import com.example.Aivra_Backend.dto.request.EnquiryStatusRequest;
 import com.example.Aivra_Backend.dto.response.EnquiryResponse;
 import com.example.Aivra_Backend.entity.Enquiry;
-import com.example.Aivra_Backend.enums.EnquiryStatus;
 import com.example.Aivra_Backend.service.EnquiryService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
